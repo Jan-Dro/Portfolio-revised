@@ -22,7 +22,6 @@ function App() {
       <Header />
       <Banner />
       <Nav />
-      <Home />
       <Devtools />
       <About />
       <Work />

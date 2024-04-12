@@ -30,7 +30,9 @@ export default function Banner(){
                         />
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptates recusandae. Omnis, atque! Ex, dolorum modi fugit error inventore ipsam illum! Reprehenderit enim laudantium unde et omnis amet ex id!
+                        Hi! Im Jesus an army veteran who's now a full stack software engineer, pretty cool right? I love to develop 
+                        new websites, and apps. With the tools I currently have I can build an array of websites tailoring to the 
+                        enduser needs.
                     </p>
                     <button className="btn btn-lg">Contact me</button>
                     </div>
