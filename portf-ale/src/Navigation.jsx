@@ -21,13 +21,13 @@ export default function Nav() {
                     <Link to="devtools" activeClass="active" smooth={true} spy={true} className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
                         <Framework />
                     </Link>
-                    <Link to="about" activeClass="active" smooth={true} spy={true} offset={-60}  className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
+                    <Link to="about" activeClass="active" smooth={true} spy={true}  className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
                         <AboutMe />            
                     </Link>
-                    <Link to="work" activeClass="active" smooth={true} spy={true} offset={-60} className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
+                    <Link to="work" activeClass="active" smooth={true} spy={true} className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
                         <WorkCompleted />    
                     </Link>
-                    <Link to="contact" activeClass="active" smooth={true} spy={true} offset={60} className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
+                    <Link to="contact" activeClass="active" smooth={true} spy={true} className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
                             <Email />
                     </Link>
                 </div>
