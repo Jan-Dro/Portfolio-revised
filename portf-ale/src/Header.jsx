@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 export default function Header(){
     return (
@@ -8,8 +9,9 @@ export default function Header(){
                     <div className="title">
                         Jesus <br /> Alejandro
                     </div>
-
-                    <button className="btn btn-sm">Let's chat</button>
+                    <Link to="contact">
+                        <button className="btn btn-sm">Let's chat</button>
+                    </Link>
                 </div>
             </div>
         </header>

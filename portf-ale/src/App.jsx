@@ -10,22 +10,25 @@ import Home from './routes/Home'
 import Work from './routes/Work'
 import Header from './Header'
 import Banner from './routes/Banner'
+import Contact from './routes/Contact'
+import { useLocation } from 'react-router'
 
 function App() {
+  const location = useLocation(); 
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'
     style={{
       backgroundAttachment: 'fixed',
       backgroundPosition: 'center',
-      height: '4000px',
+      height: '4500px',
     }}>
       <Header />
       <Banner />
-      <Nav />
       <Devtools />
       <About />
       <Work />
-    <div className='h-[4000px]'></div>
+      <Contact />
+    <div className='h-[4500px]'></div>
     </div>
   )
 }
